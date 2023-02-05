@@ -2,10 +2,8 @@
 <html lang="ru">
 
 <head>
-    <link rel="stylesheetjs" href="sost.js">
-    <link rel="stylesheet" href="sost.scss">
+    <link rel="stylesheet" href="js/option.js">
     <link rel="stylesheet" href="sost.css">
-    <link rel="back" href="">
     <link rel="site_icon" href="img/icon_site.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,6 +31,10 @@
     <div class="osn">
         <div class="top__osn">
             <h1>Вариант 1</h1>
+            <div class="time_all">         
+                <p class="time__p">Времени отсалось:</p>
+                <h6 id="times_all">4:00:00</h6>        
+            </div>
         </div>
         <div class="target">
             <div class="target1">
@@ -45,7 +47,7 @@
                 <form action="" method="POST">
                     <label for="">
                         <input  type="text" type="number" name="name" required placeholder="Введите ответ"
-                            autocomplete="off" cols="4000" class="target1__input" id="z_1">
+                            autocomplete="off" cols="4000" class="target1__input" id="z1">
                     </label>
                 </form>
             </div>
@@ -170,9 +172,33 @@
                 </form>
             </div>
         </div>
-        <button class="Btn_Save">Сохранить и перейти к результатам</button>
+        <button class="Btn_Save" onclick="opt()" data-action = "Buba">Сохранить и перейти к результатам</button>
     </div>
-        
+        <!-- <script>
+            function opt(){
+                let a = document.getElementById("z1")
+                alert(a.Value)
+                a.Value = ""
+            }
+        </script> -->
+        <script>
+            let time = 14399;
+            const countDownEl = document.getElementById("times_all");
+            setInterval(updateCountdown, 1000);
+                function updateCountdown() {
+                    const minutes = Math.floor(time / 240);
+                    const hour = Math.floor(time / 3600);
+                    let seconds = time % 60;
+                    seconds = seconds < 10 ? "0"+ seconds:seconds;
+                    countDownEl.innerHTML = `${hour}:${minutes}:${seconds}`;
+                    time--;
+                    if (hour == 3 && seconds == 40){
+                        time++
+                        countDownEl.innerHTML = "Время вышло"
+                        clearInterval(updateCountdown);
+                    }
+}
+        </script>
 </body>
 
 </html>
