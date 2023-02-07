@@ -15,7 +15,7 @@ h1{
     font-weight: 800;
     font-size: 26px;
     margin: 0px;
-    padding: 20px 40px;
+    padding: 20px 2%;
 }
 h2{
     text-align: center;
@@ -54,6 +54,75 @@ h6{
     color: #000000af;
 }
 /* h */
+
+/* Загрузка */
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #e0e0e0;
+    z-index: 1001;
+  }
+  
+.preloader__row {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: -35px;
+    margin-left: -35px;
+    text-align: center;
+    animation: preloader-rotate 2s infinite linear;
+}
+  
+.preloader__item {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    background-color: #337ab7;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    animation: preloader-bounce 2s infinite ease-in-out;
+}
+  
+.preloader__item:last-child {
+    top: auto;
+    bottom: 0;
+    animation-delay: -1s;
+}
+  
+@keyframes preloader-rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+}
+  
+@keyframes preloader-bounce {
+  
+    0%,
+    100% {
+      transform: scale(0);
+    }
+  
+    50% {
+      transform: scale(1);
+    }
+  }
+  
+  .loaded_hiding .preloader {
+    transition: 0.3s opacity;
+    opacity: 0;
+  }
+  
+  .loaded .preloader {
+    display: none;
+  }
+/* Загрузка */
+
 .overline{
     text-decoration: overline solid 0.01px;
     left: 1px;
@@ -126,7 +195,7 @@ header{
     font-weight: 600;
     font-size: 17px;
     margin: 0px;
-    padding: 20px 85px;
+    padding: 20px 70px;
 }
 .var:active{
     top: 5px;
@@ -264,7 +333,7 @@ header{
     transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55)
 }
 .back__arrow{
-    background-image: url(arrow1.svg);
+    background-image: url(img/arrow.png);
     padding: 9px 9px;
     background-size: 20px 20px;
     background-repeat: no-repeat;
@@ -305,6 +374,13 @@ header{
     transition: 1s ease all;
     transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
+.down_h1{
+   margin-left: 3%;
+    font-size: 19px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000000dc;
+}
 /* Таймер и его свойства */
 .time_all{
     display: flex;
@@ -342,6 +418,10 @@ header{
     margin-left: 3%;
     transition: 1s ease all;
     transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.div_vova{
+    width: 580px;
+    display: flex;
 }
 .target:hover{
     width: 585px;
@@ -384,49 +464,52 @@ header{
 label{
     border: 0px;
 }
-sup{
-    width: 40px;
-    /* background-color: violet; */
-    color: violet;
-}
-/* Дробь */
-.drob{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 30px;
-}
-.drob__top{
-    display: flex;
-    justify-content: center;
-    color: #000000af;
-    font-size: 17px;
-    font-weight: 600;
-    margin: 0px 0px 10px 0px;
-    font-weight: 700;
-    text-decoration: underline solid 2px ;
-    width: 100%;
-    margin: 0px;
-}
-.drob__down{
-    display: flex;
-    justify-content: center;
-    color: #000000af;
-    font-size: 17px;
-    font-weight: 600;
-    font-weight: 700;
-    margin: 0px;
-    text-decoration: overline solid 2px;
-}
 .Btn_Save{
     width: 33%;
     height: 50px;
     margin: 20px;
     margin: 30px 0px 40px 30px;
-    background-color: crimson;
+    background-color: white;
     font-family: "Sourse Sans Pro", sans-serif;
-    color: white;
+    color: rgba(24, 24, 24, 0.879);
+    border: 0px;
     cursor: pointer;
     border-radius: 10px;
-    box-shadow: rgb(71, 71, 71);
+    box-shadow: 0px 2px 4px 0px rgb(94, 94, 94);
 }
+
+
+
+
+.frac {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    letter-spacing: 0.001em;
+    text-align: center;
+    color: #000000af;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0px 0px 10px 0px;
+    font-weight: 700;
+}
+.frac > span {
+    display: block;
+    padding: 0.1em;
+}
+.frac span.bottom {
+    border-top: thin solid black;
+    color: #000000af;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0px 0px 10px 0px;
+    font-weight: 700;
+}
+.frac span.symbol {
+    display: none;
+    color: #000000af;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0px 0px 10px 0px;
+    font-weight: 700;
+} 
