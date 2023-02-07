@@ -470,18 +470,31 @@ label{
     border: 0px;
 }
 .Btn_Save{
-    width: 33%;
+    padding: 10px 20px;
     height: 50px;
-    margin: 20px;
-    margin: 30px 0px 40px 30px;
+    margin: 30px 0px 40px 3%;
     background-color: white;
     font-family: "Sourse Sans Pro", sans-serif;
     color: rgba(24, 24, 24, 0.879);
+    font-size: 17px;
     border: 0px;
     cursor: pointer;
     border-radius: 10px;
     box-shadow: 0px 2px 4px 0px rgb(94, 94, 94);
+    transition-duration: 0.6s;
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
+.Btn_Save:hover{
+    padding: 8px 8px;
+}
+.Btn_Save:active{
+    transition-duration: 0.1s;
+    position: relative;
+    color: rgb(115, 6, 6);
+    top: 4px;
+    box-shadow: 0px 1px 2px 0px rgb(94, 94, 94);
+}
+
 
 
 
