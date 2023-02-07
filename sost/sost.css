@@ -7,7 +7,11 @@ body{
 p{
     font-family: "Sourse Sans Pro", sans-serif;
 }
-
+footer{
+    background-color: black;
+    height: 100px;
+    color: white;
+}
 /* h */
 h1{
     color: #000000e3;
@@ -228,6 +232,7 @@ header{
     font-family: "Sourse Sans Pro", sans-serif;
     width: fit-content;
     margin: 0px 0px 20px 0px;
+    cursor: pointer;
 }
 .line{
     background-color: black;
@@ -262,10 +267,10 @@ header{
     width: 105px;
 }
 
-.task__sum:focus {
+
+.task__a:focus{
     width: 120px;
     border-radius: 15px 15px 0px 0px;
-    box-shadow: 0px 0px 0px 0px rgb(192 192 192);
   }
 .task__sum{
     display: flex;
@@ -480,7 +485,7 @@ label{
 
 
 
-
+/* Для дроби */
 .frac {
     display: inline-block;
     position: relative;
@@ -513,3 +518,4 @@ label{
     margin: 0px 0px 10px 0px;
     font-weight: 700;
 } 
+/* Для дроби */
