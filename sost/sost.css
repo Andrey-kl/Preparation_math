@@ -8,9 +8,10 @@ p{
     font-family: "Sourse Sans Pro", sans-serif;
 }
 footer{
-    background-color: black;
-    height: 100px;
-    color: white;
+    background-color: rgb(41, 41, 41);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 /* h */
 h1{
@@ -58,7 +59,37 @@ h6{
     color: #000000af;
 }
 /* h */
-
+.footer_line{
+    width: 210px;
+    margin-left: 10px;
+    height: 1px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.footer__down__p{
+    font-weight: 600;
+    font-size: 13px;
+    color: #ffffffdc;
+    margin: 0px;
+    padding: 10px 0px 10px 10px;
+}
+.footer_icon{
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 7px;
+    margin-right: 5px;
+}
+.footer_icong{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 5px;
+}
 /* Загрузка */
 .preloader {
     position: fixed;
@@ -220,6 +251,7 @@ header{
 .plan{
     transition: cubic-bezier(0.165, 0.84, 0.44, 1);
     margin-left: 30px;
+    padding: 0px 0px 100px 0px ;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -532,3 +564,6 @@ label{
     font-weight: 700;
 } 
 /* Для дроби */
+.form_otv{
+    width: 100%;
+}
