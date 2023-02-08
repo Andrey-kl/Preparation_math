@@ -3,5 +3,10 @@ window.onload = function () {
     window.setTimeout(function () {
       document.body.classList.add('loaded');
       document.body.classList.remove('loaded_hiding');
-    }, 500);
+    }, 2000);
   }
+  $(window).on('load', function () {
+    window.setTimeout(function () {
+      $('.preloader').fadeOut().end().delay(400).fadeOut('slow');
+    }, 2000);
+  });
