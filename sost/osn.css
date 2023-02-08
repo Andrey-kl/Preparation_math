@@ -1,0 +1,211 @@
+/* Загрузка */
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #e0e0e0;
+    z-index: 1001;
+  }
+  
+.preloader__row {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: -35px;
+    margin-left: -35px;
+    text-align: center;
+    animation: preloader-rotate 2s infinite linear;
+}
+  
+.preloader__item {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    background-color: #337ab7;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    animation: preloader-bounce 2s infinite ease-in-out;
+}
+  
+.preloader__item:last-child {
+    top: auto;
+    bottom: 0;
+    animation-delay: -1s;
+}
+  
+@keyframes preloader-rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+}
+  
+@keyframes preloader-bounce {
+  
+    0%,
+    100% {
+      transform: scale(0);
+    }
+  
+    50% {
+      transform: scale(1);
+    }
+  }
+  
+  .loaded_hiding .preloader {
+    transition: 0.3s opacity;
+    opacity: 0;
+  }
+  
+  .loaded .preloader {
+    display: none;
+  }
+/* Загрузка */
+
+html{
+    scroll-behavior: smooth;
+  }
+body{
+  margin: 0px 0px;  
+}
+p{
+    font-family: "Sourse Sans Pro", sans-serif;
+}
+footer{
+    background-color: rgb(41, 41, 41);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* h */
+
+h1{
+    color: #191919e3;
+    font-family: "Sourse Sans Pro", sans-serif;
+    font-weight: 800;
+    font-size: 26px;
+    margin: 0px;
+    padding: 20px 2%;
+}
+h2{
+    text-align: center;
+    color: #000000af;
+    font-family: "Sourse Sans Pro", sans-serif;
+    padding: 20px 85px;
+    font-weight: 800;
+    font-size: 20px;
+    margin: 0px;
+    padding: 15px 0px;
+}
+h3{
+    color: #000000af;
+    font-family: "Sourse Sans Pro", sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    margin: 40px 0px 30px 30px;
+}
+h4{
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+    color: #000000d4;
+    font-family: "Sourse Sans Pro", sans-serif;
+    font-weight: 600;
+    padding: 10px 0px 20px 0px;
+    font-size: 24px;
+    margin: 0px; 
+}
+h6{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    margin: 0px;
+    color: #000000af;
+}
+
+/* h */
+
+/* Шапка */
+.footer_line{
+    width: 210px;
+    margin-left: 10px;
+    height: 1px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.footer__down__p{
+    font-weight: 600;
+    font-size: 13px;
+    color: #ffffffdc;
+    margin: 0px;
+    padding: 10px 0px 10px 10px;
+}
+.footer_icon{
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 7px;
+    margin-right: 5px;
+}
+.footer_icong{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 5px;
+}
+.overline{
+    text-decoration: overline solid 0.01px;
+    left: 1px;
+    display: flex;
+    margin: 0px;
+    color: #000000af;
+    font-size: 17px;
+    font-weight: 600;
+}
+/* Шапка */
+.site_icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: firebrick;
+    margin-left: 15px;
+    background-image: url(https://cdn.discordapp.com/attachments/1045710290362322976/1071836156452405348/20230126_104631.png);
+}
+.heading_text{
+    display: flex;
+    flex-grow: 1;
+    margin-left: 15px;
+}
+.heading_text__p{
+    font-size: 23px;
+    font-weight: 600;
+}
+.header__div{
+    display: flex;
+    z-index: 11;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    opacity: 0.9;
+    background: azure;
+    /* background: linear-gradient(90deg, rgba(88,254,92,1) 0%, rgba(115,254,118,1) 32%, rgba(178,255,176,1) 100%); */
+    align-items: center;
+    border-bottom: 2px rgb(183, 120, 1) solid;}
+/* Шапка */
+.osn{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(240, 240, 240);
+    padding-top: 120px;
+}
+

@@ -3,7 +3,8 @@
 
 <head>
     <link rel="stylesheet" href="js/option.js">
-    <link rel="stylesheet" href="sost.css">
+    <link rel="stylesheet" href="osn.css">
+    <link rel="stylesheet" href="css/option.css">
     <link rel="site_icon" href="img/icon_site.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,7 +22,7 @@
             <a href="sost.html" class="back__a">
                 Назад
                 <div class="back__div">
-                    <span class="back__arrow"></span></div>
+                    <span class="back__arrow" ></span></div>
             </a>
         </div>
     </div>
@@ -32,11 +33,11 @@
         <div class="top__osn">
             <h1>Вариант 1</h1>
             <div class="time_all">         
-                <p class="time__p">Времени отсалось:</p>
+                <p class="time__p">Времени осталось:</p>
                 <h6 id="times_all">4:00:00</h6>        
             </div>
         </div>
-        <p class="down_h1">Часть первая</p>
+        <p class="down_h1" style="margin-top: 0px;">Часть первая</p>
         <div class="target">
             <div class="target1">
                 <h4>Задание 1</h4>
@@ -233,7 +234,14 @@
                     <p class="target1__p">б) Найдите корни этого уравнения, принадлежащие отрезку[&pi;;5&pi;/2]</p>
                 <form action="" method="POST">
                     <label for="">
-                        <input type="text" type="number" name="name" required placeholder="Введите ответ"
+                        <input type="text" type="number" name="name" required placeholder="Введите ответ для пункта а"
+                            autocomplete="off" cols="4000" class="target1__input">
+                    </label>
+                </form>
+                <div style="display: flex; width: 90px;"></div>
+                <form action="" method="POST">
+                    <label for="">
+                        <input type="text" type="number" name="name" required placeholder="Введите ответ для пункта б"
                             autocomplete="off" cols="4000" class="target1__input">
                     </label>
                 </form>
