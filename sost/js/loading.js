@@ -1,7 +1,4 @@
-window.onload = function () {
-  document.body.classList.add('loaded_hiding');
-  window.setTimeout(function () {
-    document.body.classList.add('loaded');
-    document.body.classList.remove('loaded_hiding');
-  }, 2000);
-}
+window.addEventListener("load", () => { 
+  let loadAnimation = document.querySelector(".loading-animation--conteiner"); 
+  loadAnimation.style = "display: none"; 
+});
