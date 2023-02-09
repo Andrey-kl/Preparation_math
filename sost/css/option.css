@@ -114,8 +114,8 @@
     flex-wrap: wrap;
 }
 .target1__input{
-    width: 100%;
     display: flex;
+    width: 250px;
     margin-bottom: 10px;
     border: 1px solid rgb(241, 241, 241);
     font-size: 18px;
@@ -148,9 +148,13 @@ label{
     border: 0px;
 }
 .Btn_Save{
-    padding: 10px 20px;
+    display: flex;
+    width: 350px;
+    padding: 25px 20px;
+    justify-content: center;
     font-weight: 700;
-    height: 50px;
+    text-align: center;
+    text-decoration: none;
     margin: 30px 0px 40px 3%;
     background-color: white;
     font-family: "Sourse Sans Pro", sans-serif;
@@ -164,7 +168,8 @@ label{
     transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .Btn_Save:hover{
-    padding: 8px 8px;
+    padding: 23px 18px;
+    
 }
 .Btn_Save:active{
     transition-duration: 0.1s;
