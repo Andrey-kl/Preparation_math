@@ -19,62 +19,57 @@ const e17 = "(−∞; -5); (-5; 0); (0; 3); (3; 4)"
 const e18 = 22
 const counter = 0
 
+function viewDiv(){
+    // document.getElementById("BtnSave").style.display = "none";
+    document.getElementById("div1").style.display = "flex";
+    let counter = 0
 
-function end(){
-    let i1 = document.getElementById("z1").value
-    let i2 = document.getElementById("z1").value
-    let i3 = document.getElementById("z1").value
-    let i4 = document.getElementById("z1").value
-    let i5 = document.getElementById("z1").value
-    let i6 = document.getElementById("z1").value
-    let i7 = document.getElementById("z1").value
-    let i8 = document.getElementById("z1").value
-    let i9 = document.getElementById("z1").value
-    let i10 = document.getElementById("z1").value
-    let i11 = document.getElementById("z1").value
-    let i12 = document.getElementById("z1").value
-    let i13 = document.getElementById("z1").value
-    let i14 = document.getElementById("z1").value
-    let i15 = document.getElementById("z1").value
-    let i16 = document.getElementById("z1").value
-    let i17 = document.getElementById("z1").value
-    let i18 = document.getElementById("z1").value
+    document.getElementById("Cans1").innerHTML = e1;
+    document.getElementById("Cans2").innerHTML = e2;
+    document.getElementById("Cans3").innerHTML = e3;
+    document.getElementById("Cans4").innerHTML = e4;
 
-    if (i1 == e1) {
-        counter++
+    let NUans1 = document.getElementById("z1").value;
+    let NUans2 = document.getElementById("z2").value;
+    let NUans3 = document.getElementById("z3").value;
+    let NUans4 = document.getElementById("z4").value;
+
+    document.getElementById("Uans1").innerHTML = NUans1;
+    document.getElementById("Uans2").innerHTML = NUans2;
+    document.getElementById("Uans3").innerHTML = NUans3;
+    document.getElementById("Uans4").innerHTML = NUans4;
+
+    if (e1 == NUans1) {
+        document.getElementById("Uans1").style.backgroundColor = "lightgreen";
+        counter ++
+    } else {
+        document.getElementById("Uans1").style.backgroundColor = "lightpink";
     }
-    if (i2 == e4) {
-        counter++
+    if (e2 == NUans2) {
+        document.getElementById("Uans2").style.backgroundColor = "lightgreen";
+        counter ++
+    } else {
+        document.getElementById("Uans2").style.backgroundColor = "lightpink";
     }
-    if (i3 == e3) {
-        counter++
+    
+    if (e3 == NUans3) {
+        document.getElementById("Uans3").style.backgroundColor = "lightgreen";
+        counter ++
+    } else {
+        document.getElementById("Uans3").style.backgroundColor = "lightpink";
     }
-    if (i4 == e4) {
-        counter++
+    
+    if (e4 == NUans4) {
+        document.getElementById("Uans4").style.backgroundColor = "lightgreen";
+        counter ++
+    } else {
+        document.getElementById("Uans4").style.backgroundColor = "lightpink";
     }
-    if (i5 == e5) {
-        counter++
-    }
-    if (i6 == e6) {
-        counter++
-    }
-    if (i7 == e7) {
-        counter++
-    }
-    if (i8 == e8) {
-        counter++
-    }
-    if (i9 == e9) {
-        counter++
-    }
-    if (i10 == e10) {
-        counter++
-    }
-    if (i11 == e11) {
-        counter++
-    }
-       
-}
+    
+    
+    console.log(counter)
+    document.getElementById("count").innerHTML = counter;
+  };
 
 
 

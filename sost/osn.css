@@ -65,6 +65,13 @@ body.night-mode .animation span {
 html{
     scroll-behavior: smooth;
   }
+
+html.NoRgb {
+    --text-color-1: #191919e3;
+    --bg-color-1: #c0fec0;
+    --bg-color-2: #ffc0c0;
+}
+
 body{
   margin: 0px 0px;  
 }
@@ -99,7 +106,7 @@ h2{
     padding: 15px 0px;
 }
 h3{
-    color: #000000af;
+    color: var(--text-color-1);
     font-family: "Sourse Sans Pro", sans-serif;
     font-weight: 600;
     font-size: 21px;

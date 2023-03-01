@@ -219,3 +219,59 @@ label{
 .form_otv{
     width: 100%;
 }
+#div1{
+    display: none;
+    flex-wrap: wrap;
+    background-color: rgb(245, 255, 250);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px 0px rgb(94, 94, 94);
+    width: 94%;
+    margin-left: 3%;
+  }
+li{
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    justify-content: center;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    height: 60px;
+    font-weight: 700;
+    padding: 0px 10px;
+    text-decoration: none;
+    background-color: rgb(255, 251, 251);
+    list-style-type: none;
+
+}
+.answerP{
+    display: flex;
+    color: #000000af;
+    font-weight: 800;
+    font-size: 21px;
+    margin: 0px;
+    padding: 1%;
+    position: relative;
+    top: -1px;
+}
+#answerP{
+    color: #000000af;
+    font-weight: 800;
+    margin: 0px;
+    width: 225px;
+    font-size: 21px;
+    display: flex;
+}
+.MenuResult{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.TopText{
+    background-color: rgb(255, 251, 247);
+
+}
+ul{
+    padding: 0px;
+}

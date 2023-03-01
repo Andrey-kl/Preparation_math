@@ -59,10 +59,9 @@
                             autocomplete="off" cols="4000" class="target1__input" id="z1">
                     </label>
                 </form>
-                <p id="ans1"></p>
             </div>
         </div>
-        <div class="target">
+         <div class="target">
             <div class="target1">
                 <h4>Задание 2</h4>
                 <div class="div_vova"><p class="target1__p">1. Сосуд, имеющий форму правильной треугольной призмы, налили 2024 см<sup>3</sup>
@@ -72,7 +71,7 @@
                 <form action="" method="POST" class="form_otv">
                     <label for="">
                         <input type="text" type="number" name="name" required placeholder="Введите ответ"
-                            autocomplete="off" cols="4000" class="target1__input">
+                            autocomplete="off" cols="4000" class="target1__input" id="z2">
                     </label>
                 </form>
             </div>
@@ -89,7 +88,7 @@
                 <form action="" method="POST">
                     <label for="">
                         <input type="text" type="number" name="name" required placeholder="Введите ответ"
-                            autocomplete="off" cols="4000" class="target1__input">
+                            autocomplete="off" cols="4000" class="target1__input" id="z3">
                     </label>
                 </form>
             </div>
@@ -97,8 +96,7 @@
         <div class="target">
             <div class="target1">
                 <h4>Задание 4</h4>
-                <!-- {-b\pm \sgrtb^2-4ac} -->
-                <!-- <sup>3</sup>&frasl;<sub>5</sub> x = -9<sup>3</sup>&frasl;<sub>5</sub> -->
+            
                 <div class="div_vova"><p class="target1__p">Турнир по настольному теннису проводится по олимпийской системе: игроки случайным
                     образом разбиваются на игровые пары. Проигравший в каждой паре выбывает из турнира, а победитель
                     выходит в следующий тур, где встречается со следующим противником, который определяется жребием.
@@ -109,12 +107,12 @@
                 <form action="" method="POST">
                     <label for="">
                         <input type="text" type="number" name="name" required placeholder="Введите ответ"
-                            autocomplete="off" cols="4000" class="target1__input">
+                            autocomplete="off" cols="4000" class="target1__input" id="z4">
                     </label>
                 </form>
             </div>
         </div>
-        <div class="target">
+         <!-- <div class="target">
             <div class="target1">
                 <h4>Задание 5</h4>
                 <p class="target1__p">Решите уравнение √<p class="overline">21 &minus; 4𝑥</p>
@@ -357,8 +355,47 @@
                     </label>
                 </form>
             </div>
+        </div> --> 
+        
+        <a onmousedown="viewDiv()" class="Btn_Save" id="BtnSave">Сохранить и перейти к результатам</a>
+
+
+
+        <div id="div1">
+            <div class="MenuResult">
+            <p id="answerP">Результаты:</p>
+            <div style="display: flex;"><p id="answerP">Всего правильно: <p class="answerP" id="count">0</p></p></div>
+
         </div>
-        <a href="result1.html" onclick="end()" class="Btn_Save">Сохранить и перейти к результатам</a>
+        <ul class="CorrectAnswer">
+            <li class="TopText" >Номер задания</li>
+            <li >1</li>
+            <li >2</li>
+            <li >3</li>
+            <li >4</li>
+        </ul>
+        <ul class="UserAnswer">
+            <li class="TopText" >Введенный ответ</li>
+            <li id="Uans1" >-</li>
+            <li id="Uans2">-</li>
+            <li id="Uans3" >-</li>
+            <li id="Uans4">-</li> 
+        </ul>
+        <ul class="CorrectAnswer">
+            <li class="TopText" >Правильный ответ</li>
+            <li id="Cans1" >-</li>
+            <li id="Cans2">-</li>
+            <li id="Cans3" >-</li>
+            <li id="Cans4">-</li>
+        </ul>
+            
+
+        </div>
+
+
+
+
+
     </div>
     <footer>
         <div style="width: 100%;display: flex;">
