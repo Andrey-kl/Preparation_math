@@ -1,5 +1,5 @@
-const e1 = 22
-const e2 = 22
+const e1 = "30"
+const e2 = "30"
 const e3 = 22
 const e4 = 22
 const e5 = 22
