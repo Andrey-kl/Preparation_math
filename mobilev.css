@@ -1,0 +1,92 @@
+@media(max-width: 710px){
+    .target{
+        width: 76%;
+    }
+    .time_all{
+        padding: 10px;
+    }
+    .var__p{
+        padding: 20px 100px;
+    }
+    .target:hover{
+        width: 77%;
+    }
+    .back__a{
+        padding: 13px 25px 13px 28px;
+    }
+    .heading_text__p{
+        display: flex;
+        width: 145px;
+        font-size: 15px;
+    }
+    .Btn_Save{
+        padding: 20px 10px;
+        width: 310px;
+    }
+    ul{
+        padding: 0px;
+    }
+    li{
+        width: 91%;
+        font-size: 18px;
+    }
+    .li{
+        padding: 0.1px 7px;
+        font-size: 17px;
+    }
+    #div1{
+        width: 94%;
+        margin: 0px;
+    }
+}
+@media(max-width: 500px){
+    .target{
+        width: 76%;
+    }
+    h1{
+        font-size: 20px;
+    }
+    li{
+        width: 87%;
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .target1__img{
+        width: 100%;
+    }
+    .header__div{
+    position: relative;
+    }
+    .back__a{
+    padding: 15px 13px;
+    font-size: 0px;
+    top: 0.5px;
+    left: -1px;
+    position: relative;
+    background-size: 25px 25px;
+    }
+    .osn{
+        padding: 40px 0px 0px 0px;
+    }
+    .parl1{
+        margin-right: 15px;
+    }
+    .parl2{
+        margin-right: 15px;
+    }
+    .site_icon{
+        margin-left: 5px;
+    }
+    #modalWindow2{
+        width: 350px;
+    }
+    .ModalDiv{
+        padding: 10px 30px;
+    }
+    #modalWindow{
+        width: 90%;
+    }
+    .heading_text__p{
+        font-size: 0px;
+    }
+}
