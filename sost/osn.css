@@ -180,7 +180,7 @@ h6{
     width: 70px;
     height: 70px;
     border-radius: 100%;
-    background-color: firebrick;
+    background-repeat: round;
     margin-left: 15px;
     background-image: url(https://cdn.discordapp.com/attachments/1045710290362322976/1071836156452405348/20230126_104631.png);
 }

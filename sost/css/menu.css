@@ -1,6 +1,7 @@
 .beginning{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     padding: 15px 30px;
 }
 .var{
@@ -12,6 +13,7 @@
     text-decoration: none;
     transition: 0.5s ease;
     top: 0px;
+    margin-top: 20px;
     transition: cubic-bezier(0.165, 0.84, 0.44, 1);
     transition-duration: 1s
 }
