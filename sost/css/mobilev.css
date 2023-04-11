@@ -86,4 +86,7 @@
     #modalWindow{
         width: 90%;
     }
+    .heading_text__p{
+        font-size: 0px;
+    }
 }
