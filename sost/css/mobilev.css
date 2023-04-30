@@ -40,6 +40,10 @@
     }
 }
 @media(max-width: 500px){
+    .back__arrow{
+        top: 1px;
+        left: -1px;
+    }
     .target{
         width: 76%;
     }

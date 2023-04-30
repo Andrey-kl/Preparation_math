@@ -20,7 +20,7 @@ const e18a = "да"
 const e18b = "нет"
 const e18c = 22
 const counter = 0
-function viewDiv(){
+function viewDiv3(){
     document.getElementById("BtnSave").style.display = "none";
     document.getElementById("div1").style.display = "flex";
     let counter = 0

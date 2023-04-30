@@ -20,7 +20,7 @@ const e18a = "1;1;1;1;1;1;1"
 const e18b = "нет"
 const e18c = "7;7;7;9;11 или 7;9;11;14"
 const counter = 0
-function viewDiv(){
+function viewDiv2(){
     document.getElementById("BtnSave").style.display = "none";
     document.getElementById("div1").style.display = "flex";
     let counter = 0

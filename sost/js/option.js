@@ -2,6 +2,7 @@
 function viewMenu(){
     document.getElementById("menu").style.height = "60px";   
 }
+
 function viewPar(){
     document.getElementById("ModalStart").style.display = "flex";
     document.getElementById("defoltDiv").style.display = "flex";
@@ -40,5 +41,9 @@ setInterval(updateCountdown, 1000);
             countDownEl.innerHTML = "Время вышло"
             clearInterval(updateCountdown);
         }
+}
+function viewDiv(){
+    document.getElementById("lastTimes").style.display = "none";
+
 }
 

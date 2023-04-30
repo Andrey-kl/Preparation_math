@@ -79,7 +79,7 @@
     background-position: 50%;
     top: 0;
     position: relative;
-    transition: 0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
+    transition: 0.2s cubic-bezier(0.47, 0, 0.745, 0.715);
 }
 .parl1:hover{
     position: relative;
@@ -87,7 +87,7 @@
     color: rgb(34, 34, 34);
     border-radius: 30px;
     box-sizing: 10px;
-    transition: 0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
+    transition: 0.2s cubic-bezier(0.47, 0, 0.745, 0.715);
 
 }
 .parl1:active{
@@ -106,7 +106,7 @@
     cursor: pointer;
     top: 0;
     position: relative;
-    transition: 0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
+    transition: 0.2s cubic-bezier(0.47, 0, 0.745, 0.715);
     user-select: none;
 }
 .parl2:hover{
@@ -115,8 +115,8 @@
     color: rgb(34, 34, 34);
     border-radius: 30px;
     box-sizing: 10px;
-    transition: 0.3s ease;
-    transition: 0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
+    transition: 0.2s ease;
+    transition: 0.2s cubic-bezier(0.47, 0, 0.745, 0.715);
 }
 .parl2:active{
     box-shadow: 0px 2px 5px 0px rgb(89 89 89);
@@ -175,6 +175,10 @@
     align-items: center;
 }
 .ModalDiv{
+    padding: 10px 75px;
+    flex-wrap: wrap;
+}
+.ModalDiv2{
     padding: 10px ;
     flex-wrap: wrap;
 }
@@ -228,7 +232,7 @@
     transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .down_h1{
-    margin: 40px 0px 15px 30px;
+    margin: 40px 0px 15px 45px;
     font-size: 18px;
     font-weight: 700;
     text-decoration: none;
