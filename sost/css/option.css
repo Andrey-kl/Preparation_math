@@ -136,6 +136,7 @@
     background-color: rgb(249, 254, 255);
     border-radius: 10px;
     top: 30%;
+    max-width: 1600px;
 }
 #modalWindow2{
     display: none;
