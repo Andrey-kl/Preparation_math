@@ -28,7 +28,9 @@
     margin: 0px 10px 0px 0px;
 }
 .back__arrow{
-    background-image: url(icon1.svg);
+    /* background-image: url(../img/rightarrow.png); */
+    
+    background-image: url(https://img.icons8.com/?size=512&id=4D4oTbtEnrn7&format=png);
     top: 1.5px;
     position: relative;
     padding: 10px 10px;
