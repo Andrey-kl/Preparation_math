@@ -89,9 +89,10 @@
     transform: all 0.1s ease;
 }
 .task__sum:hover{
-    background: rgb(215,215,215);
-    /* background: linear-gradient(270deg, rgba(215,215,215,1) 0%, rgba(227,227,227,1) 28%, rgba(245,245,245,1) 100%); */
-    background: linear-gradient(90deg, rgb(238, 253, 255) 0%, rgb(222, 255, 253) 32%, rgb(199, 242, 255) 100%);
+   
+    background: rgb(244,255,255);
+    background: linear-gradient(90deg, rgba(244,255,255,1) 0%, rgba(221,249,255,1) 15%, rgba(197,247,255,1) 32%, rgb(166, 243, 255) 52%, rgb(151, 229, 255) 76%, rgb(124, 207, 255) 100%);
+
     width: 105px;
 }
 .down_h1{

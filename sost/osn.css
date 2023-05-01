@@ -78,6 +78,11 @@ body{
 p{
     font-family: "Sourse Sans Pro", sans-serif;
 }
+p::selection {
+    background: #c1f3ff; /* Safari */
+    color: #000000af;
+    }
+
 footer{
     background-color: rgb(41, 41, 41);
     height: 100%;
@@ -212,4 +217,11 @@ h6{
     padding-top: 120px;
     padding-bottom: 120px;
 }
-
+.nothing{
+    font-size: 26px;
+    color: #191919e3;
+    font-family: "Sourse Sans Pro", sans-serif;
+    font-weight: 800;
+    margin: 0px;
+    padding: 20px 20px 600px 20px;
+}
