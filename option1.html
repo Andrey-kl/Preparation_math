@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="stylesheet" href="js/option.js">
+    <link rel="stylesheet" href="osn.css">
+    <link rel="stylesheet" href="css/option.css">
+    <link rel="stylesheet" href="css/mobilev.css">
+    <link rel="site_icon" href="img/icon_site.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт</title>
+</head>
+<body>
+    <!-- <div class="loading-animation--conteiner">
+        <span class="loading-animation">
+            <span class="animation">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </span>
+    </div> -->
+    <header>
+        <div class="header__div">
+            <div class="site_icon"></div>
+            <div class="heading_text">
+                <p class="heading_text__p">Сайт по подготовки к <br> ЕГЭ по математике</p>
+            </div>
+            <div onmousedown="viewForm()" class="parl1"></div>
+            <div onmousedown="viewPar()" class="parl2"><p class="parl1P">?</p></div>
+            
+            <div class="back">
+                <a href="sost.html" class="back__a">
+                    Назад
+                    <div class="back__div">
+                        <div class="back__arrow"></div></div>
+                </a>
+            </div>
+           
+            
+        </div>
+        <div id="ModalStart2">
+            <div id="defoltDiv2">
+            </div>
+                <div id="modalWindow2">
+                    
+                    <div class="ModalDiv">
+                        <div class="ModalDivP">
+                            <h6 style="font-size: 24px">Справочные материалы</h6>
+                            <p class="ModalP"> &emsp;sin<sup>2</sup>&alpha; + cos<sup>2</sup>&beta; = 1 &emsp;</p>
+                            <p class="ModalP"> &emsp;sin2&alpha; = 2sin&alpha;cos&beta; &emsp;</p>
+                            <p class="ModalP">cos2&alpha; = cos<sup>2</sup>&alpha; - sin<sup>2</sup>&beta;</p>
+                            <p class="ModalP">sin(&alpha; + &beta;) = sin&alpha;cos&beta; + cos&alpha;sin&beta;</p>
+                            <p class="ModalP">cos(&alpha; + &beta;) = cos&alpha;cos&beta; - sin&alpha;sin&beta;</p>
+                    </div>
+                    </div>
+                    <div class="ModalClose"><p id="ModalWindowBack" onmousedown="modalWindowBack2()">X</p></div>
+                    </div>
+                    </div>
+        <div id="ModalStart">
+        <div id="defoltDiv">
+        </div>
+            <div id="modalWindow">
+                
+                <div class="ModalDiv2">
+                    <div style="display: flex;height: 90px;">
+                    <p class="ModalP">&#10066;Если вам нужно записать число или выражение под корнем
+                    то используйте <mark>rad</mark> и <mark>()</mark>, в которых вы 
+                    указываете выражение или число. <br> Пример:</p></div>
+                    <div style="display:flex;">
+                    <p class="target1__p"style="font-weight: 100;color: rgb(41, 41, 41);">√<p class="overline" style="font-weight: 100;color: rgb(41, 41, 41);">x &minus; 2</p>
+                    <p class="target1__p"style="font-weight: 100;color: rgb(41, 41, 41);">&nbsp;= rad(x - 2)</p></p></div>
+                    <p class="ModalP">&#10066;Для записи числа пи используйте комбинацию букв <mark>pi</mark>
+                    с маленькой буквы</p>
+                    <p class="ModalP">&#10066;Для записи бесконечности используйте комбинацию букв <mark>oo</mark> (английская раскладка)</p>
+                    <p class="ModalP">&#10066;Для записи дроби используйте (числитель)<mark>/</mark>(делитель) без пробелов</p>
+                    <p class="ModalP">&#10066;Что бы записать число или выражение в какую-либо степень используйте <mark>^</mark>,после которого
+                    указываете, в какую степень хотите возвести. <br> Пример: </p>
+                    <p class="target1__p" style="font-weight: 100;color: rgb(41, 41, 41);">x<sup>3</sup> = x^3</p></p>
+                </div>
+                <div class="ModalClose"><p id="ModalWindowBack" onmousedown="modalWindowBack()">X</p></div>
+                </div>
+                
+                </div>
+        </div>
+        </div>
+    </header>
+    <div class="osn">
+        <div class="fon">
+        <div class="top__osn">
+            <h1>Вариант 1</h1>
+            <div class="time_all" id="lastTimes">         
+                <p class="time__p">Времени осталось:</p>
+                <h6 id="times_all">4:00:00</h6>        
+            </div>
+        </div>
+        <p class="down_h1" style="margin-top: 0px;">Часть первая</p>
+        <div class="target">
+            <div class="target1">
+                <h4>Задание 1</h4>
+                <div class="div_vova"> <p class="target1__p">Прямая, проведенная параллельно боковой стороне трапеции
+                    через конец меньшего основания, равного 6, отсекает
+                    треугольник, периметр которого равен 18. Найдите периметр
+                    трапеции.</p></div>
+                <img src="img/task1/img_file1.png" alt="#" class="target1__img">
+                <form action="" method="POST" class="form_otv">
+                    <label for="">
+                        <input  type="text" type="number" name="name" required placeholder="Введите ответ"
+                            autocomplete="off" cols="4000" class="target1__input" id="z1">
+                    </label>
+                </form>
+            </div>
+        </div>
+         <div class="target">
+            <div class="target1">
+                <h4>Задание 2</h4>
+                <div class="div_vova"><p class="target1__p">Сосуд, имеющий форму правильной треугольной призмы, налили 2024 см3 воды и погрузили в воду деталь. При этом уровень воды
+                    поднялся с отметки 22 см до отметки 25 см. Найдите объем детали. Ответ выразите в см<sup>3</sup>.</p></div>
+                <img src="img/task2/img_file2.png" alt="#" class="target1__img">
+                <form action="" method="POST" class="form_otv">
+                    <label for="">
+                        <input type="text" type="number" name="name" required placeholder="Введите ответ"
+                            autocomplete="off" cols="4000" class="target1__input" id="z2">
+                    </label>
+                </form>
+            </div>
+
+        </div>
+        <div class="target">
+            <div class="target1">
+                <h4>Задание 3</h4>
+                <div class="div_vova"><p class="target1__p">На экзамене по геометрии школьник отвечает на один вопрос из списка
+                    экзаменационных вопросов. Вероятность того, что это вопрос по теме «Вписанная окружность», равна
+                    0,35. Вероятность того, что это вопрос по теме «Внешние углы», равна 0,3. Вопросов, которые
+                    одновременно относятся к этим двум темам, нет. Найдите вероятность того, что на экзамене школьнику
+                    достанется вопрос по одной из этих двух тем.</p></div>
+                <form action="" method="POST">
+                    <label for="">
+                        <input type="text" type="number" name="name" required placeholder="Введите ответ"
+                            autocomplete="off" cols="4000" class="target1__input" id="z3">
+                    </label>
+                </form>
+            </div>
+        </div>
+        <div class="target">
+            <div class="target1">
+                <h4>Задание 4</h4>
+            
+                <div class="div_vova"><p class="target1__p">Турнир по настольному теннису проводится по олимпийской системе: игроки случайным
+                    образом разбиваются на игровые пары. Проигравший в каждой паре выбывает из турнира, а победитель
+                    выходит в следующий тур, где встречается со следующим противником, который определяется жребием.
+                    Всего в турнире участвует 8 игроков, все они играют одинаково хорошо, поэтому в каждой встрече
+                    вероятность выигрыша и поражения у каждого игрока равна 0,5. Среди игроков два друга – Иван и
+                    Алексей. Какова вероятность того, что этим двоим в каком-то туре, придётся сыграть друг с другом?
+                </p></div>
+                <form action="" method="POST">
+                    <label for="">
+                        <input type="text" type="number" name="name" required placeholder="Введите ответ"
+                            autocomplete="off" cols="4000" class="target1__input" id="z4">
+                    </label>
+                </form>
+            </div>
+        </div>
+          <div class="target">
+            <div class="target1">
+                <h4>Задание 5</h4>
+                <p class="target1__p">Решите уравнение √<p class="overline">21 &minus; 4𝑥</p>
+                <p class="target1__p">&nbsp;= &minus;</p></p>
+                <p class="target1__p"> Если уравнение имеет более одного корня, в ответе запишите
+                    больший из них.</p>
+                <form action="" method="POST">
+                    <label for="">
+                        <input type="text" type="number" name="name" required placeholder="Введите ответ"
+                            autocomplete="off" cols="4000" class="target1__input" id="z5">
+                    </label>
+                </form>
+            </div>
+        </div>
+        <div class="target">
+            <div class="target1">
+                <h4>Задание 6</h4>
+                <p class="target1__p">Найдите значение выражения log√5
+                    <sup>2</sup>
+                    25</p>
+                <form action="" method="POST">
+                    <label for="">
+                        <input type="text" type="number" name="name" required placeholder="Введите ответ"
+                            autocomplete="off" cols="4000" class="target1__input" id="z6">
+                    </label>
+                </form>
+            </div>
+        </div>
+        <div class="target">
+            <div class="target1">
+                <h4>Задание 7</h4>
+                <div class="div_vova"><p class="target1__p">На рисунке изображён график y=F(x) одной из первообразных
+                    некоторой функции f(x) и отмечены десять точек на оси
+                    абсцисс 𝑥1, 𝑥2, 𝑥3, 𝑥4, 𝑥5, 𝑥6, 𝑥7, 𝑥8, 𝑥9
+                    , 𝑥10. В скольких из
+                    этих точек функция f(x) отрицательна?</p></div>
+                <img src="img/task7/img.graf.png" alt="#" class="target1__img">
+                <form action="" method="POST">
+                    <label for="">
+                        <input type="text" type="number" name="name" required placeholder="Введите ответ"
+                            autocomplete="off" cols="4000" class="target1__input" id="z7">
+                    </label>
+                </form>
+            </div>
+        </div>
+        <div class="target">
+            <div class="target1">
+                <h4>Задание 8</h4>
+                <div class="div_vova"><p class="target1__p">Катер должен пересечь реку шириной L=100 м и со скоростью
+                    течения u=0,5 м/с так, чтобы причалить точно напротив места
+                    отправления. Он может двигаться с разными скоростями, при этом
+                    время в пути, измеряемое в секундах, определяется выражением
+                    𝑡 =
+                    𝐿/𝑢
+                    𝑐𝑡𝑔𝑎, где a – острый угол, задающий направление его
+                    движения (отсчитывается от берега). Под каким минимальным
+                    углом a (в градусах) нужно плыть, чтобы время в пути было не
+                    больше 200 с?</p></div>
+                <form action="" method="POST">
+                    <label for="">
+                        <input type="text" type="number" name="name" required placeholder="Введите ответ"
+                            autocomplete="off" cols="4000" class="target1__input" id="z8">
+                    </label>
+                </form>
+            </div>
+        </div>
+        <div class="target">
+            <div class="target1">
+                <h4>Задание 9</h4>
+                <div class="div_vova"><p class="target1__p">На экзамене по геометрии школьник отвечает на один вопрос из списка
+                    экзаменационных вопросов. Вероятность того, что это вопрос по теме «Вписанная окружность», равна
+                    0,35. Вероятность того, что это вопрос по теме «Внешние углы», равна 0,3. Вопросов, которые
+                    одновременно относятся к этим двум темам, нет. Найдите вероятность того, что на экзамене школьнику
+                    достанется вопрос по одной из этих двух тем.</p></div>
+                <form action="" method="POST">
+                    <label for="">
+                        <input type="text" type="number" name="name" required placeholder="Введите ответ"
+                            autocomplete="off" cols="4000" class="target1__input" id="z9">
+                    </label>
+                </form>
+            </div>
+        </div>
+        <div class="target">
+            <div class="target1">
+                <h4>Задание 10</h4>
+                <div class="div_vova"><p class="target1__p">На рисунке изображен график функции 𝑓(𝑥) = 𝑥<sup>2</sup> + 𝑏𝑥 + 𝑐.
+                    Найдите 𝑓(−1).</p></div>
+                <img src="img/task10/img.graf2.png" alt="#" class="target1__img">
+                <form action="" method="POST">
+                    <label for="">
+                        <input type="text" type="number" name="name" required placeholder="Введите ответ"
+                            autocomplete="off" cols="4000" class="target1__input" id="z10">
+                    </label>
+                </form>
+            </div>
+        </div>
+        <div class="target">
+            <div class="target1">
+                <h4>Задание 11</h4>
+                <div class="div_vova"><p class="target1__p">Найдите наименьшее значение функции на отрезке [1;4];</p></div>
+                <div class="div_vova"><p class="target1__p">
+                <div class="frac">
+                    <span>𝑥</span>
+                    <span class="symbol">/</span>
+                    <span class="bottom">𝑥<sup>2</sup> &plus; 9</span>
+                    </div></p></div>
+                <form action="" method="POST">
+                    <label for="">
+                        <input type="text" type="number" name="name" required placeholder="Введите ответ"
+                            autocomplete="off" cols="4000" class="target1__input" id="z11">
+                    </label>
+                </form>
+            </div>
+        </div>
+        <p class="down_h1">Часть вторая</p>
+        <div class="target">
+            <div class="target1">
+                <h4>Задание 12</h4>
+                <div class="div_vova">
+                        <p class="target1__p">а) Решите уравнение √<p class="overline">3</p></p>
+                        <p class="target1__p">tg(𝑥)tg(𝑥) − 4 tg 𝑥 + √<p class="overline">3</p></p>
+                        <p class="target1__p">= 0</p>
+                    </div>
+                    <p class="target1__p">б) Найдите корни этого уравнения, принадлежащие отрезку[&pi;;5&pi;/2]</p>
+                <form action="" method="POST">
+                    <label for="">
+                        <input type="text" type="number" name="name" required placeholder="Введите ответ для пункта а"
+                            autocomplete="off" cols="4000" class="target1__input" id="z12a">
+                    </label>
+                </form>
+                <div style="display: flex; width: 90px;"></div>
+                <form action="" method="POST">
+                    <label for="">
+                        <input type="text" type="number" name="name" required placeholder="Введите ответ для пункта б"
+                            autocomplete="off" cols="4000" class="target1__input" id="z12b">
+                    </label>
+                </form>
+            </div>
+        </div>
+        <div class="target">
+            <div class="target1">
+                <h4>Задание 13</h4>
+                <div class="div_vova"><p class="target1__p">Основание пирамиды DABC — треугольник АВС с прямым углом
+                    при вершине С. Высота пирамиды проходит через точку В.
+                    Точки М и N — середины рёбер АD и BC соответственно.</p></div>
+                    <div class="div_vova"><p class="target1__p">а) Докажите, что MN является биссектрисой угла ВМС</p></div>
+                        <div class="div_vova"><p class="target1__p">б) Найдите угол между прямыми BD и MN, если AC = 20, 𝐵𝐷 =
+                            8√<p class="overline">2</p>.</p></div>
+                <form action="" method="POST">
+                    <label for="">
+                        <input type="text" type="number" name="name" required placeholder="Введите ответ"
+                            autocomplete="off" cols="4000" class="target1__input" id="z13">
+                    </label>
+                </form>
+            </div>
+        </div>
+        <div class="target">
+            <div class="target1">
+                <h4>Задание 14</h4>
+                <div class="div_vova"><p class="target1__p">Решите неравенство</p></div>
+                <div class="div_vova"><p class="target1__p">log<sub>3</sub><sup>2</sup>(25 - x<sup>2</sup>) - 3log<sub>3</sub>(25 - x<sup>2</sup>) + 2 &ge; 0</p></div>
+                <form action="" method="POST">
+                    <label for="">
+                        <input type="text" type="number" name="name" required placeholder="Введите ответ"
+                            autocomplete="off" cols="4000" class="target1__input" id="z14">
+                    </label>
+                </form>
+            </div>
+        </div>
+        <div class="target">
+            <div class="target1">
+                <h4>Задание 15</h4>
+                <div class="div_vova"><p class="target1__p">Вклад планируется открыть на четыре года. Первоначальный
+                    вклад составляет целое число миллионов рублей. В конце каждого
+                    года вклад увеличивается на 10% по сравнению с его размером в
+                    начале года, а, кроме этого, в начале третьего и четвёртого годов
+                    вклад ежегодно пополняется на 3 млн рублей.
+                    Найдите наименьший размер первоначального вклада, при
+                    котором через четыре года вклад будет больше 20 млн рублей.</p></div>
+                <form action="" method="POST">
+                    <label for="">
+                        <input type="text" type="number" name="name" required placeholder="Введите ответ"
+                            autocomplete="off" cols="4000" class="target1__input" id="z15">
+                    </label>
+                </form>
+            </div>
+        </div>
+        <div class="target">
+            <div class="target1">
+                <h4>Задание 16</h4>
+                <div class="div_vova"><p class="target1__p">Дана равнобедренная трапеция ABCD с основаниями AD и BC.
+                    Окружность с центром O, построенная на боковой стороне AB как
+                    на диаметре, касается боковой стороны CD и второй раз
+                    пересекает большее основание AD в точке H, точка Q — середина
+                    CD. <br>
+                    а) Докажите, что четырёхугольник DQOH — параллелограмм. <br>
+                    б) Найдите AD, если ∠BAD = 75° и BC =1. <br>
+                    </p></div>
+                <form action="" method="POST">
+                    <label for="">
+                        <input type="text" type="number" name="name" required placeholder="Введите ответ"
+                            autocomplete="off" cols="4000" class="target1__input" id="z16">
+                    </label>
+                </form>
+            </div>
+        </div>
+         <div class="target">
+            <div class="target1">
+                <h4>Задание 17</h4>
+                <div class="div_vova"><p class="target1__p">Найдите значения a, при каждом из которых уравнение </p></div>
+                <div class="div_vova"><p class="target1__p"><div class="frac">
+                    <span>𝑥<sup>2</sup> - 4𝑥 + a</span>
+                    <span class="symbol">/</span>
+                    <span class="bottom">5𝑥<sup>2</sup> - 6a𝑥 &plus; a<sup>2</sup></span>
+                    </div><p class="target1__p" style="display: flex; align-items: center; top: -3px; position: relative;">&nbsp;= 0</p>
+                    </p></div>
+                    <div class="div_vova"><p class="target1__p">имеет ровно два различных решения.</p></div>
+                <form action="" method="POST">
+                    <label for="">
+                        <input type="text" type="number" name="name" required placeholder="Введите ответ"
+                            autocomplete="off" cols="4000" class="target1__input" id="z17">
+                    </label>
+                </form>
+            </div>
+        </div>
+        <div class="target">
+            <div class="target1">
+                <h4>Задание 18</h4>
+                <div class="div_vova"><p class="target1__p">Пять различных натуральных чисел таковы, что никакие два не
+                    имеют общего делителя, больше 1. <br>
+                    а) Может ли сумма всех пяти чисел быть равна 26? <br>
+                    б) Может ли сумма всех пяти чисел быть равна 23? <br>
+                    в) Какое наименьшее значение может принимать сумма всех пяти <br>
+                    чисел?
+                    </p></div>
+                    <form action="" method="POST">
+                        <label for="">
+                            <input type="text" type="number" name="name" required placeholder="Введите ответ для пункта а"
+                                autocomplete="off" cols="4000" class="target1__input" id="z18a">
+                        </label>
+                    </form>
+                    <div style="display: flex; width: 90px;"></div>
+                    <form action="" method="POST">
+                        <label for="">
+                            <input type="text" type="number" name="name" required placeholder="Введите ответ для пункта б"
+                                autocomplete="off" cols="4000" class="target1__input" id="z18b">
+                        </label>
+                    </form> <div style="display: flex; width: 90px;"></div>
+                    <form action="" method="POST">
+                        <label for="">
+                            <input type="text" type="number" name="name" required placeholder="Введите ответ для пункта б"
+                                autocomplete="off" cols="4000" class="target1__input" id="z18с">
+                        </label>
+                    </form>
+            </div>
+        </div>
+        
+        <a onmousedown="viewDiv()" class="Btn_Save" id="BtnSave">Сохранить и перейти к результатам</a>
+
+
+
+        <div id="div1">
+            <div class="MenuResult">
+            <p id="answerP">Результаты:</p>
+            <div style="display: flex;"><p id="answerP">Всего правильно: <p class="answerP" id="count">0</p></p></div>
+
+        </div>
+        <div style="display: flex;">
+        <ul class="CorrectAnswer">
+            <li class="li" style="background-color: rgb(255, 251, 247);">Номер задания</li>
+            <li class="li">1</li>
+            <li class="li">2</li>
+            <li class="li">3</li>
+            <li class="li">4</li>
+            <li class="li">5</li>
+            <li class="li">6</li>
+            <li class="li">7</li>
+            <li class="li">8</li>
+            <li class="li">9</li>
+            <li class="li">10</li>
+            <li class="li">11</li>
+            <li class="li">12</li>
+            <li class="li">13</li>
+            <li class="li">14</li>
+            <li class="li">15</li>
+            <li class="li">16</li>
+            <li class="li">17</li>
+            <li class="li" style="border-bottom: 1px solid; height: 90px;">18</li>
+        </ul>
+        <ul class="UserAnswer" style="padding: 0;">
+            <li class="li" style="background-color: rgb(255, 251, 247);" >Введенный ответ</li>
+            <li class="li" id="Uans1" >-</li>
+            <li class="li" id="Uans2">-</li>
+            <li class="li" id="Uans3" >-</li>
+            <li id="Uans4" class="li">-</li> 
+            <li class="li" id="Uans5" >-</li>
+            <li class="li" id="Uans6">-</li>
+            <li class="li" id="Uans7" >-</li>
+            <li class="li" id="Uans8">-</li> 
+            <li class="li" id="Uans9" >-</li>
+            <li class="li" id="Uans10">-</li>
+            <li class="li" id="Uans11" >-</li>
+            <li class="li" id="Uans12" style="width: 0;height: 0;border: 0;">
+                <li class="li" id="Uans12a" style="height: 30px;">-</li>
+                <li class="li" id="Uans12b" style="height: 29px;">-</li>
+            </li> 
+            <li id="Uans13" class="li">-</li>
+            <li id="Uans14" class="li">-</li>
+            <li id="Uans15" class="li">-</li>
+            <li id="Uans16" class="li">-</li> 
+            <li id="Uans17" class="li">-</li>
+            <li id="Uans18" class="li" style="width: 0;height: 0;border: 0;">
+                <li id="Uans18a" style="height: 30px;" class="li">-</li>
+                <li id="Uans18b" style="height: 29px;" class="li">-</li>
+                <li class="li" id="Uans18c" style="height: 29px;border-bottom: 1px solid;">-</li>
+            </li> 
+        </ul>
+        <ul class="CorrectAnswer" style="padding: 0;">
+            <li class="li" style="background-color: rgb(255, 251, 247);" >Правильный ответ</li>
+            <li id="Cans1" class="li">-</li>
+            <li class="li" id="Cans2">-</li>
+            <li class="li" id="Cans3">-</li>
+            <li class="li" id="Cans4">-</li> 
+            <li class="li" id="Cans5">-</li>
+            <li class="li" id="Cans6">-</li>
+            <li class="li" id="Cans7">-</li>
+            <li class="li" id="Cans8">-</li> 
+            <li class="li" id="Cans9">-</li>
+            <li class="li" id="Cans10">-</li>
+            <li class="li" id="Cans11">-</li>
+            <li class="li" id="Cans12" style="width: 0;height: 0;border: 0;">
+                <li class="li" id="Cans12a" style="height: 30px;">-</li>
+                <li class="li" id="Cans12b" style="height: 29px;">-</li>
+            </li> 
+            <li class="li" id="Cans13">-</li>
+            <li class="li" id="Cans14">-</li>
+            <li class="li" id="Cans15">-</li>
+            <li class="li" id="Cans16">-</li> 
+            <li class="li" id="Cans17">-</li>
+            <li class="li" id="Cans18" style="width: 0;height: 0;border: 0;">
+                <li class="li" id="Cans18a" style="height: 30px;">-</li>
+                <li class="li" id="Cans18b" style="height: 29px;">-</li>
+                <li class="li" id="Cans18c" style="height: 29px;border-bottom: 1px solid;">-</li>
+            </li> 
+        </ul>
+    </div>
+    </div>
+</div>
+
+    <footer>
+        <div style="width: 100%;display: flex;">
+        <p class="footer__down__p" style="margin-right: 10px;padding-top: 20px;" >Я в социальных сетях:</p>
+        <a href="" class="footer_icon">
+            <img src="img/telegram_icon.png" alt="" class="footer_icon"></a>
+        <a href="" class="footer_icon">
+            <img src="img/vk_icon.png" alt="" class="footer_icon"></a></div>
+
+        <div class="footer_line"p></div>
+        <div style="display: flex;width: 100%;"><p class="footer__down__p" >©2022 - 2023 Все права защищены.</p><a href="https://github.com/Andrey-kl" class="footer_icon">
+            <img src="img/githab_icon.png" alt="" class="footer_icon" style="top: 0px;"></a></div>
+    </footer>
+        <script src="./js/option.js"></script>
+        <script src="./js/option1.js"></script>
+        <script src="./js/loading.js"></script>
+        
+</body>
+</html>
