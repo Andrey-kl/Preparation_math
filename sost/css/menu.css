@@ -38,7 +38,7 @@
 .var:hover{
     position: relative;
     /* background-color: rgb(186, 255, 180); */
-    background: linear-gradient(90deg, rgb(234, 255, 235) 0%, rgb(214, 255, 214) 32%, rgb(187, 255, 185) 100%);
+    background: linear-gradient(90deg, rgba(244,255,255,1) 0%, rgba(221,249,255,1) 15%, rgba(197,247,255,1) 30%, rgb(166, 243, 255) 50%, rgb(151, 229, 255) 74%, rgb(124, 207, 255) 100%);;
     color: rgb(34, 34, 34);
     border-radius: 30px;
     transition: 0.3s ease;
@@ -47,7 +47,6 @@
 .plan{
     transition: cubic-bezier(0.165, 0.84, 0.44, 1);
     margin-left: 30px;
-    padding: 0px 0px 100px 0px ;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -89,10 +88,8 @@
     transform: all 0.1s ease;
 }
 .task__sum:hover{
-   
     background: rgb(244,255,255);
     background: linear-gradient(90deg, rgba(244,255,255,1) 0%, rgba(221,249,255,1) 15%, rgba(197,247,255,1) 32%, rgb(166, 243, 255) 52%, rgb(151, 229, 255) 76%, rgb(124, 207, 255) 100%);
-
     width: 105px;
 }
 .down_h1{

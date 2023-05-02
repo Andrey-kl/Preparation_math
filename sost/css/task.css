@@ -22,7 +22,7 @@
     background-color: rgb(245, 250, 255);
     border: 1px solid hsl(220deg 100% 88%);
     position: relative;
-    margin-bottom: 10px;
+    margin-bottom: -10px;
     font-size: 18px;
     color: rgb(34, 34, 34);
     font-weight: 600;

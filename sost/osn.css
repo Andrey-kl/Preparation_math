@@ -78,10 +78,23 @@ body{
 p{
     font-family: "Sourse Sans Pro", sans-serif;
 }
+sub::selection {
+    background: #c1f3ff; /* Safari */
+    color: #000000af;
+}
 p::selection {
     background: #c1f3ff; /* Safari */
     color: #000000af;
-    }
+}
+sup::selection {
+    background: #c1f3ff; /* Safari */
+    color: #000000af;
+}
+h4::selection {
+    background: #c1f3ff; /* Safari */
+    color: #000000af;
+}
+
 
 footer{
     background-color: rgb(41, 41, 41);
@@ -187,7 +200,7 @@ h6{
     border-radius: 100%;
     background-repeat: round;
     margin-left: 15px;
-    background-image: url(https://cdn.discordapp.com/attachments/1045710290362322976/1071836156452405348/20230126_104631.png);
+    background-image: url(siteiconnottext.png);
 }
 .heading_text{
     display: flex;
@@ -205,7 +218,7 @@ h6{
     height: 100px;
     position: fixed;
     opacity: 0.9;
-    background: azure;
+    background: rgb(226, 255, 255);
     /* background: linear-gradient(90deg, rgba(88,254,92,1) 0%, rgba(115,254,118,1) 32%, rgba(178,255,176,1) 100%); */
     align-items: center;
     border-bottom: 2px rgb(183, 120, 1) solid;}

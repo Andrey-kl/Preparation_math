@@ -28,7 +28,8 @@
     margin: 0px 10px 0px 0px;
 }
 .back__arrow{
-    background-image: url(rightarrow.png);
+    /* background-image: url(../img/rightarrow.png); */
+    background-image: url(../img/rightarrow.png);
     top: 1.5px;
     position: relative;
     padding: 10px 10px;
@@ -52,10 +53,10 @@
 }
 .back__a:hover{
     position: relative;
-    background-color: rgb(238, 255, 248);
+    background-color: rgb(201, 255, 232);
     color: rgb(34, 34, 34);
     border-radius: 30px;
-    transition: 0.1s ease;
+    transition: 0.2s cubic-bezier(0.47, 0, 0.745, 0.715);
     box-sizing: 10px;
 }
 .parl1P{
@@ -136,7 +137,7 @@
     background-color: rgb(249, 254, 255);
     border-radius: 10px;
     top: 30%;
-    max-width: 1600px;
+    max-width: 1100px;
 }
 #modalWindow2{
     display: none;
