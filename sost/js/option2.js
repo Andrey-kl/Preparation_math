@@ -12,13 +12,13 @@ const e11 = 4
 const e12a = "пк/2;"
 const e12b = "5п/2;7п/2;4п;"
 const e13 = "125rad(6)/3"
-const e14 = "(-оо;-3rad(2)];[3;4)"
+const e14 = "(-Б;-3rad(2)];[3;4)"
 const e15 = "3 млн"
 const e16 = 7
 const e17 = "-7/9;0;1;5/9"
-const e18a = "1;1;1;1;1;1;1"
+const e18a = "да"
 const e18b = "нет"
-const e18c = "7;7;7;9;11 или 7;9;11;14"
+const e18c = "111"
 const counter = 0
 function viewDiv2(){
     document.getElementById("BtnSave").style.display = "none";

@@ -94,6 +94,14 @@ h4::selection {
     background: #c1f3ff; /* Safari */
     color: #000000af;
 }
+h1::selection {
+    background: #c1f3ff; /* Safari */
+    color: #000000af;
+}
+h2::selection {
+    background: #c1d5ff; /* Safari */
+    color: #000000af;
+}
 
 
 footer{
