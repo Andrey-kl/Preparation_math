@@ -24,7 +24,7 @@
     top: 0px;
     box-shadow: 0px 5px 10px 0px rgb(89 89 89);
     position: relative;
-    transition: 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
+    transition: 0.1s cubic-bezier(0.47, 0, 0.745, 0.715);
     margin: 0px 10px 0px 0px;
 }
 .back__arrow{
@@ -56,7 +56,7 @@
     background-color: rgb(201, 255, 232);
     color: rgb(34, 34, 34);
     border-radius: 30px;
-    transition: 0.2s cubic-bezier(0.47, 0, 0.745, 0.715);
+    transition: 0.1s cubic-bezier(0.47, 0, 0.745, 0.715);
     box-sizing: 10px;
 }
 .parl1P{
@@ -447,13 +447,9 @@ label{
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
 .ul{
     padding: 0px;
 }
-
-
-
 .btn-up{
     position: fixed;
 background-color: #673ab7;
@@ -463,11 +459,7 @@ border-radius: 22px;
 cursor: pointer;
 width: 44px;
 height: 44px;
-
-
 }
-
-
 .btn-up::before {
 content: "";
 text-align: center;
@@ -495,16 +487,24 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     text-decoration: none;
     font-family: "Sourse Sans Pro", sans-serif;
     padding: 5px;
+    top: 0px;
     border-radius: 10px;
-    transition: 0.2s cubic-bezier(0.47, 0, 0.745, 0.715);
+    transition: 0.1s cubic-bezier(0.47, 0, 0.745, 0.715);
+    box-shadow: 0px 2px 5px 0px rgb(185 185 185);
 }
 .div__top:hover{
-    background-color: #d8fff5;
-    transition: 0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
+    background-color: rgb(255, 247, 222);
+    transition: 0.1s cubic-bezier(0.47, 0, 0.745, 0.715);
     color: #000000dc;
+    box-shadow: 0px 1px 2px 1px rgb(185 185 185);
 }
 .top{
     display: flex;
     width: 100%;
     justify-content: flex-end;
+}
+.div__top:active{
+    position: relative;
+    top: 5px;
+    transition: 0.1s cubic-bezier(0.47, 0, 0.745, 0.715);
 }

@@ -31,6 +31,7 @@ const countDownEl = document.getElementById("times_all");
 setInterval(updateCountdown, 1000);
     function updateCountdown() {
         const minutes = Math.floor(time / 240);
+        // time / 240
         const hour = Math.floor(time / 3600);
         let seconds = time % 60;
         seconds = seconds < 10 ? "0"+ seconds:seconds;

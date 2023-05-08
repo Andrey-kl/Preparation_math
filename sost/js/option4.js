@@ -1,0 +1,224 @@
+const otv = ["103", "9", "0.9", "0.2", "4", "-23", "3", "6","30", "36","-4",
+    "pi;/6 + pi;k; pi;/6 + pi;k, k &isin; &Zeta;",
+"7pi;/6; 13pi;/6; 4pi;/3; 7pi;/3", "17","(−∞; -2];[-1; 0]",
+"12.5%","18rad(3)", "(-б; -6] U {2} U [8; +б)", "-5, -3, 4"
+,"4","нет"]
+
+let elem = document.querySelector('p')
+setInterval(() => elem.hidden = !elem.hidden, 0.1)
+
+
+function viewDiv3(){
+    document.getElementById("BtnSave").style.display = "none";
+    document.getElementById("div1").style.display = "flex";
+    let counter = 0
+    a = []
+    for (let i = 0; i < otv.length; i++){
+        for (let j = 0; j < otv.length; j++){
+            a = a + otv[j]
+        }
+        console.log(a[i])
+    }
+    document.getElementById("Cans1").innerHTML = otv[0];
+    document.getElementById("Cans2").innerHTML = otv[1];
+    document.getElementById("Cans3").innerHTML = otv[2];
+    document.getElementById("Cans4").innerHTML = otv[3];
+    document.getElementById("Cans5").innerHTML = otv[4];
+    document.getElementById("Cans6").innerHTML = otv[5];
+    document.getElementById("Cans7").innerHTML = otv[6];
+    document.getElementById("Cans8").innerHTML = otv[7];
+    document.getElementById("Cans9").innerHTML = otv[8];
+    document.getElementById("Cans10").innerHTML = otv[9];
+    document.getElementById("Cans11").innerHTML = otv[10];
+    document.getElementById("Cans12a").innerHTML = otv[11];
+    document.getElementById("Cans12b").innerHTML = otv[12];
+    document.getElementById("Cans13").innerHTML = otv[13];
+    document.getElementById("Cans14").innerHTML = otv[14];
+    document.getElementById("Cans15").innerHTML = otv[15];
+    document.getElementById("Cans16").innerHTML = otv[16];
+    document.getElementById("Cans17").innerHTML = otv[17];
+    document.getElementById("Cans18a").innerHTML = otv[18];
+    document.getElementById("Cans18b").innerHTML = otv[19];
+    document.getElementById("Cans18c").innerHTML = otv[20];
+
+    let NUans1 = document.getElementById("z1").value;
+    let NUans2 = document.getElementById("z2").value;
+    let NUans3 = document.getElementById("z3").value;
+    let NUans4 = document.getElementById("z4").value;
+    let NUans5 = document.getElementById("z5").value;
+    let NUans6 = document.getElementById("z6").value;
+    let NUans7 = document.getElementById("z7").value;
+    let NUans8 = document.getElementById("z8").value;
+    let NUans9 = document.getElementById("z9").value;
+    let NUans10 = document.getElementById("z10").value;
+    let NUans11 = document.getElementById("z11").value;
+    let NUans12a = document.getElementById("z12a").value;
+    let NUans12b = document.getElementById("z12b").value;
+    let NUans13 = document.getElementById("z13").value;
+    let NUans14 = document.getElementById("z14").value;
+    let NUans15 = document.getElementById("z15").value;
+    let NUans16 = document.getElementById("z16").value;
+    let NUans17 = document.getElementById("z17").value;
+    let NUans18a = document.getElementById("z18a").value;
+    let NUans18b = document.getElementById("z18b").value;
+    let NUans18c = document.getElementById("z18с").value;
+
+    document.getElementById("Uans1").innerHTML = NUans1;
+    document.getElementById("Uans2").innerHTML = NUans2;
+    document.getElementById("Uans3").innerHTML = NUans3;
+    document.getElementById("Uans4").innerHTML = NUans4;
+    document.getElementById("Uans5").innerHTML = NUans5;
+    document.getElementById("Uans6").innerHTML = NUans6;
+    document.getElementById("Uans7").innerHTML = NUans7;
+    document.getElementById("Uans8").innerHTML = NUans8
+    document.getElementById("Uans9").innerHTML = NUans9;
+    document.getElementById("Uans10").innerHTML = NUans10;
+    document.getElementById("Uans11").innerHTML = NUans11;
+    document.getElementById("Uans12a").innerHTML = NUans12a;
+    document.getElementById("Uans12b").innerHTML = NUans12b;
+    document.getElementById("Uans13").innerHTML = NUans13;
+    document.getElementById("Uans14").innerHTML = NUans14;
+    document.getElementById("Uans15").innerHTML = NUans15;
+    document.getElementById("Uans16").innerHTML = NUans16;
+    document.getElementById("Uans17").innerHTML = NUans17;
+    document.getElementById("Uans18a").innerHTML = NUans18a;
+    document.getElementById("Uans18b").innerHTML = NUans18b;
+    document.getElementById("Uans18c").innerHTML = NUans18c;
+
+    if (otv[0] == NUans1) {
+        document.getElementById("Uans1").style.backgroundColor = "lightgreen";
+        counter ++
+    } else {
+        document.getElementById("Uans1").style.backgroundColor = "lightpink";
+    }
+    if (otv[1] == NUans2) {
+        document.getElementById("Uans2").style.backgroundColor = "lightgreen";
+        counter ++
+    } else {
+        document.getElementById("Uans2").style.backgroundColor = "lightpink";
+    }
+    
+    if (otv[2] == NUans3) {
+        document.getElementById("Uans3").style.backgroundColor = "lightgreen";
+        counter ++
+    } else {
+        document.getElementById("Uans3").style.backgroundColor = "lightpink";
+    }
+    
+    if (otv[3] == NUans4) {
+        document.getElementById("Uans4").style.backgroundColor = "lightgreen";
+        counter ++
+    } else {
+        document.getElementById("Uans4").style.backgroundColor = "lightpink";
+    }
+    if (otv[4] == NUans5) {
+        document.getElementById("Uans5").style.backgroundColor = "lightgreen";
+        counter ++
+    } else {
+        document.getElementById("Uans5").style.backgroundColor = "lightpink";
+    }
+    if (otv[5] == NUans6) {
+        document.getElementById("Uans6").style.backgroundColor = "lightgreen";
+        counter ++
+    } else {
+        document.getElementById("Uans6").style.backgroundColor = "lightpink";
+    }
+    
+    if (otv[6] == NUans7) {
+        document.getElementById("Uans7").style.backgroundColor = "lightgreen";
+        counter ++
+    } else {
+        document.getElementById("Uans7").style.backgroundColor = "lightpink";
+    }
+    
+    if (otv[7] == NUans8) {
+        document.getElementById("Uans8").style.backgroundColor = "lightgreen";
+        counter ++
+    } else {
+        document.getElementById("Uans8").style.backgroundColor = "lightpink";
+    }
+    if (otv[8] == NUans9) {
+        document.getElementById("Uans9").style.backgroundColor = "lightgreen";
+        counter ++
+    } else {
+        document.getElementById("Uans9").style.backgroundColor = "lightpink";
+    }
+    if (otv[9] == NUans10) {
+        document.getElementById("Uans10").style.backgroundColor = "lightgreen";
+        counter ++
+    } else {
+        document.getElementById("Uans10").style.backgroundColor = "lightpink";
+    }
+    
+    if (otv[10] == NUans11) {
+        document.getElementById("Uans11").style.backgroundColor = "lightgreen";
+        counter ++
+    } else {
+        document.getElementById("Uans11").style.backgroundColor = "lightpink";
+    }
+    if (otv[11] == NUans12a) {
+        document.getElementById("Uans12a").style.backgroundColor = "lightgreen";
+        counter ++
+    } else {
+        document.getElementById("Uans12a").style.backgroundColor = "lightpink";
+    }
+    if (otv[12] == NUans12b) {
+        document.getElementById("Uans12b").style.backgroundColor = "lightgreen";
+        counter ++
+    } else {
+        document.getElementById("Uans12b").style.backgroundColor = "lightpink";
+    }
+    if (otv[13] == NUans13) {
+        document.getElementById("Uans13").style.backgroundColor = "lightgreen";
+        counter ++
+    } else {
+        document.getElementById("Uans13").style.backgroundColor = "lightpink";
+    }
+    if (otv[14] == NUans14) {
+        document.getElementById("Uans14").style.backgroundColor = "lightgreen";
+        counter ++
+    } else {
+        document.getElementById("Uans14").style.backgroundColor = "lightpink";
+    }
+    
+    if (otv[15] == NUans15) {
+        document.getElementById("Uans15").style.backgroundColor = "lightgreen";
+        counter ++
+    } else {
+        document.getElementById("Uans15").style.backgroundColor = "lightpink";
+    }
+    
+    if (otv[16] == NUans16) {
+        document.getElementById("Uans16").style.backgroundColor = "lightgreen";
+        counter ++
+    } else {
+        document.getElementById("Uans16").style.backgroundColor = "lightpink";
+    }
+    if (otv[17] == NUans17) {
+        document.getElementById("Uans17").style.backgroundColor = "lightgreen";
+        counter ++
+    } else {
+        document.getElementById("Uans17").style.backgroundColor = "lightpink";
+    }
+    if (otv[18] == NUans18a) {
+        document.getElementById("Uans18a").style.backgroundColor = "lightgreen";
+        counter ++
+    } else {
+        document.getElementById("Uans18a").style.backgroundColor = "lightpink";
+    }
+    if (otv[19] == NUans18b) {
+        document.getElementById("Uans18b").style.backgroundColor = "lightgreen";
+        counter ++
+    } else {
+        document.getElementById("Uans18b").style.backgroundColor = "lightpink";
+    }
+    if (otv[20] == NUans18c) {
+        document.getElementById("Uans18c").style.backgroundColor = "lightgreen";
+        counter ++
+    } else {
+        document.getElementById("Uans18c").style.backgroundColor = "lightpink";
+    }
+    console.log(counter)
+    document.getElementById("count").innerHTML = counter;
+  };
+
